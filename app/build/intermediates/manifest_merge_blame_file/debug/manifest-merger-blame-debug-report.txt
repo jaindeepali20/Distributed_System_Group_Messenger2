@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.buffalo.cse.cse486586.groupmessenger2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="19" />
+9-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+11-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:7:5-77
+11-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:7:22-74
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:8:5-75
+12-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:8:22-72
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:9:5-67
+13-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:9:22-64
+14
+15    <application
+15-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:11:5-27:19
+16        android:allowBackup="true"
+16-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:12:9-35
+17        android:debuggable="true"
+18        android:icon="@drawable/ic_launcher"
+18-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:13:9-45
+19        android:label="@string/app_name"
+19-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:14:9-41
+20        android:theme="@style/AppTheme" >
+20-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:15:9-40
+21        <activity
+21-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:16:9-24:20
+22            android:name="edu.buffalo.cse.cse486586.groupmessenger2.GroupMessengerActivity"
+22-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:17:13-92
+23            android:label="@string/app_name" >
+23-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:18:13-45
+24            <intent-filter>
+24-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:19:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:20:17-69
+25-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:22:17-77
+27-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:25:9-26:88
+32            android:name="edu.buffalo.cse.cse486586.groupmessenger2.GroupMessengerProvider"
+32-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:25:19-98
+33            android:authorities="edu.buffalo.cse.cse486586.groupmessenger2.provider" />
+33-->/home/deepali/AndroidStudioProjects/GroupMessenger2/app/src/main/AndroidManifest.xml:26:13-85
+34    </application>
+35
+36</manifest>
