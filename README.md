@@ -1,2 +1,2 @@
-# GroupMessenger2
-Distributed Systems Group Messenger with Total and FIFO Ordering Guarantees
+# GroupMessanger2
+Efficient Distributed Systems Group Messanger  and FIFO Ordering Guarantees
